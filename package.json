@@ -5,7 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "start": "electron .",
-    "rebuild": "electron-rebuild"
+    "rebuild": "electron-rebuild",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/aragon/aragon-shell",
   "keywords": [
@@ -15,8 +17,8 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "electron": "^3.0.4",
-    "electron-packager": "^12.2.0",
-    "electron-rebuild": "^1.8.2"
+    "electron-rebuild": "^1.8.2",
+    "electron-builder": "^20.38.2"
   },
   "dependencies": {
     "@akashaproject/ipfs-connector": "^1.10.32",
