@@ -15,3 +15,11 @@ git clone git@github.com:aragon/aragon-desktop
 npm i
 npm start
 ```
+
+## Content
+
+When the content `ipfs-hash` of the assets folder change is important to propagate this throgh IPFS. The best way to do this is use the araognCLI command `ipfs propagate`:
+
+```sh
+aragon ipfs propagate <ipfs-hash>
+```
